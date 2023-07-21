@@ -3,6 +3,6 @@ services:
   webserver:
     image: nginx:latest
     ports:
-      - "8085:80"
+      - "8083:80"
     volumes:
       - /etc/docker/Site-CV:/usr/share/nginx/html:ro
